@@ -1,0 +1,25 @@
+{
+  "providers": {
+    "ollama": {
+      "apiBase": "http://localhost:11434/v1"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "provider": "ollama",
+      "model": "llama3.2:3b",
+      "workspace": "~/.nanobot/workspace",
+      "maxTokens": 8192,
+      "temperature": 0.7
+    }
+  },
+  "tools": {
+     "mcp_servers": {
+        "my-http-server": {
+            "url" : "http://127.0.0.1:3001/mcp",
+            "enabled_tools": ["*"],
+            "tool_timeout": 30
+        }
+     }
+  }
+}
