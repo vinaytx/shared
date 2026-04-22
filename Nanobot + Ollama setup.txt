@@ -1,0 +1,113 @@
+Nanobot + Ollama setup
+=======================
+
+Python Setup
+============
+1 - Setup pyenv for Windows
+     https://github.com/pyenv-win/pyenv-win
+2 - Install Python under pyenv
+	
+     -- pyenv install 3.12.10
+
+     -- pyenv local  3.12.10
+     -- pyenv global 3.12.10
+
+     -- pyenv version   << check to make sure that you are using 3.12.10
+
+Download Nanobot
+================
+   -- https://github.com/HKUDS/nanobot
+   -- I have a modified version of Nanobot...  (https://github.com/vinaytx/shared.git)
+
+Setup Nanobot
+=============
+   go into nanobot directory
+    -- pip install -e .
+
+
+Download markitdown   to convert files to text
+===================
+   -- https://github.com/microsoft/markitdown
+   -- I have a modified version of markitdown with the correct version of mcp server SW. (markitdown.zip)
+   
+>> cd markitdown\packages
+
+04/16/2026  08:40 PM    <DIR>          markitdown
+04/19/2026  12:00 PM    <DIR>          markitdown-mcp
+04/16/2026  08:40 PM    <DIR>          markitdown-ocr
+
+go in each directory
+   >>  pip install -e .
+
+Download Ollama
+================
+    --- https://www.ollama.com/
+
+Setup Ollama account to use Ollama cloud
+====================
+
+Download Gemma 
+==============
+     --  ollama run gemma4:e2b
+     --  ollama run gemma4:e4b
+
+Download Gemma cloud
+=====================
+     -- ollama run gemma4:31b-cloud
+
+
+Start Nanobot
+
+>> nanobot onboard
+
+Copy configuration file (config.json) from nanobot source directory to .\nanobot
+
+>> cd <user dir>\.nanobot
+## Steps to use local ollama model
+>> copy C:\Shared\dev\nanobot\config.json  config.json   . 
+## Steps to use Cloud ollama model
+>> copy C:\Shared\dev\nanobot\config-ollama-cloud.json config.json     
+
+
+ Directory of C:\Shared\dev\nanobot
+
+04/19/2026  11:46 AM    <DIR>          .
+04/19/2026  11:44 AM    <DIR>          ..
+04/06/2026  02:50 AM    <DIR>          bridge
+04/06/2026  02:50 AM    <DIR>          case
+04/06/2026  02:50 AM               244 COMMUNICATION.md
+04/19/2026  07:15 AM               510 config.json                 <<<<<<< Copy this config file
+                                   519 config-ollama-cloud.json    <<<<<<< or Copy this config file
+04/06/2026  02:50 AM             4,112 CONTRIBUTING.md
+04/06/2026  02:50 AM             2,755 core_agent_lines.sh
+04/06/2026  02:50 AM               610 docker-compose.yml
+04/06/2026  02:50 AM             1,531 Dockerfile
+04/06/2026  02:50 AM    <DIR>          docs
+04/06/2026  02:50 AM             1,096 LICENSE
+04/06/2026  02:50 AM    <DIR>          nanobot
+04/06/2026  02:50 AM           643,326 nanobot_arch.png
+04/06/2026  02:50 AM           191,443 nanobot_logo.png
+04/06/2026  02:50 AM             7,600 orig-config.json
+04/19/2026  11:40 AM             5,561 Pip-List.txt
+04/06/2026  02:50 AM             3,378 pyproject.toml
+04/06/2026  02:50 AM            67,292 README.md
+04/06/2026  02:50 AM             7,775 SECURITY.md
+04/06/2026  02:50 AM    <DIR>          tests
+              14 File(s)        937,233 bytes
+               7 Dir(s)  12,781,592,576 bytes free
+
+=========
+Start the MCP gateway
+
+Window 1 >>> markitdown-mcp --http --host 127.0.0.1 --port 3001
+
+Start nanobot ..  you will need to open 3 command terminals
+
+Window 2 >>>  nanobot gateway
+
+window 3 >>> nanobot agent
+
+window 4 >>>  cd <user id>\.nanobot\logs
+    Directory where debug logs that show messages going to the LLM
+
+
