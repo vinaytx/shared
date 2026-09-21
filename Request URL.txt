@@ -1,0 +1,163 @@
+Request URL
+https://dbc-d2b3035b-54c3.cloud.databricks.com/ajax-api/2.0/alerts-internal/scheduled-insights-list/ALERT?parent_asset_name=users%2F70561337331970&page_size=25&order_by=last_execute_time+desc
+Request method
+GET
+Status code
+200 OK
+Remote address
+3.237.73.238:443
+Referrer policy
+strict-origin-when-cross-origin
+alt-svc
+clear
+content-length
+2
+content-type
+application/json
+date
+Mon, 21 Sep 2026 01:53:53 GMT
+server
+databricks
+server-timing
+request_id;dur=0;desc="cff91d9c-81e0-4c44-beeb-4eb919c4b352", client_protocol;dur=0;desc="HTTP/2"
+strict-transport-security
+max-age=31536000; includeSubDomains; preload
+x-content-type-options
+nosniff
+x-databricks-org-id
+1731097017602631
+x-request-id
+cff91d9c-81e0-4c44-beeb-4eb919c4b352
+:authority
+dbc-d2b3035b-54c3.cloud.databricks.com
+:method
+GET
+:path
+/ajax-api/2.0/alerts-internal/scheduled-insights-list/ALERT?parent_asset_name=users%2F70561337331970&page_size=25&order_by=last_execute_time+desc
+:scheme
+https
+accept
+application/json, text/plain, */*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+en-US,en;q=0.9
+content-type
+application/json
+cookie
+workspace-url=dbc-d2b3035b-54c3.cloud.databricks.com; n=6cf796a7-aa25-40a1-b6f9-7856bc8355a1; lfid=128b0728-a6db-403b-b2e0-aa35321021aa; DBAUTH=dbws.1.eyJraWQiOjB9.AedZ7nl0HvOMPORqFgzyHhdRmT9jfLZDPhZBpSF2FxR5VII9FgeQfYuRUwcaVi0oz4b5jlItQ8Qh0_rahuBu0UNEnetP1vtm34tH_E__el498n1sJlQxXjW9HZZm0hTrjJFsc0Vb8LRi87pz-e_r3t9rZ9QvA416TXTJFnQ-MVQSPubLICRdmohHhIRFYTzHXauoegVrxPR-IeVsSoTI4cZDgy-h6RDn9BSKWBaN6-1w_MU2jp-d7i9d_VLZvysKGhGM00vcEGl-L9uMJ-quqiH8mGr1CjCNxJm5LeZb5aKOa3-Hk2PJNoUHvK4x0GXjmyY-6fLh3HB5mjPgEN10wCC3lq904V_RGpYki4a_HyqQmdT8D4ZBWN-_Z6FNBeZU4-V6irhlVnxi4QTpZ4-hCD7l_QSz1FlW_ihYgG_1bIZOkdmQR7sf4FK19OACGa0gmuGxmjkSJxCmQq5dnvSqgZQmznaROtNV3lEATIM7bw4VsTqRtDX0WbGLbjqoQTsw0a_bsZ4zQiFGq4HiJfX9H0Pw_FvpBTCi8aFvtP7r7M6riB-H6375gbODi0NgvoKzljO3_LoPbmpURSOSqD6ogKBladu-k1gWKEOQRJZ53E6NvxjzoCp_aHkf5boQWIGqaezv8ivyaqmwnWMaBwJJZLHWYtHeecOW4a3SsUP_C6E_ZqUxxCJvd96UjNj8bCQJs-aiiFR8JsQ01qjlKTpyan2ZY9MSzSqDaqHWRmUBaR3YbGzAU4VbeOMJ4kG_Gnq3jTSTbzHBp9TCndvjI8XSlaGRRwwL_yYFkvXHgNtfecDBn7NiV7Q4g_K1R0qcLyUPwAov3w==
+priority
+u=1, i
+referer
+https://dbc-d2b3035b-54c3.cloud.databricks.com/one?o=1731097017602631
+sec-ch-ua
+"Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-origin
+traceparent
+00-33cc96f055330c1cc949412c9abd43c3-955763f312897148-00
+tracestate
+product=databricks-ui
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+x-client-request-id
+bb4aaab9-fdaf-4813-978b-cbb8f43c2e5d
+x-csrf-token
+eb488580-ac6c-4800-bab7-2711b27e8bb6
+x-databricks-attribution-tags
+%7B%22pageId%22%3A%22webapp.navigation.databricks_one%22%2C%22pageViewId%22%3A%2217899554991395wmv9wnv%22%2C%22browserTabId%22%3A%22302fd718-44f8-4954-9d72-0b7b85617a14%22%2C%22browserHasFocus%22%3Atrue%2C%22browserIsHidden%22%3Afalse%2C%22browserHash%22%3A%22%22%2C%22browserPathName%22%3A%22%2Fone%22%2C%22browserHostName%22%3A%22dbc-d2b3035b-54c3.cloud.databricks.com%22%2C%22browserUserAgent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F153.0.0.0%20Safari%2F537.36%22%2C%22eventWindowTime%22%3A134452.5%2C%22clientTimestamp%22%3A1789955633010%2C%22loadedUiVersions%22%3A%7B%22monolith%22%3A%2220760a36452c1d7a4bf77cb92b22cd4444011db8%22%7D%2C%22clientLocale%22%3A%22en%22%2C%22browserLanguage%22%3A%22en-US%22%2C%22queryParameters%22%3A%22%3Fo%3D1731097017602631%22%2C%22tabStartTimestampMillis%22%3A1789955498786%7D
+x-databricks-org-id
+1731097017602631
+x-databricks-self
+true
+
+
+
+Request URL
+https://dbc-d2b3035b-54c3.cloud.databricks.com/ajax-api/2.0/alerts-internal/scheduled-insights-list/ALERT?parent_asset_name=users%2F70561337331970&page_size=25&order_by=last_execute_time+desc
+Request method
+GET
+Status code
+200 OK
+Remote address
+3.237.73.238:443
+Referrer policy
+strict-origin-when-cross-origin
+alt-svc
+clear
+content-length
+2
+content-type
+application/json
+date
+Mon, 21 Sep 2026 02:00:32 GMT
+server
+databricks
+server-timing
+request_id;dur=0;desc="50cff7d4-f9a1-4eb7-a017-7007c04566cb", client_protocol;dur=0;desc="HTTP/2"
+strict-transport-security
+max-age=31536000; includeSubDomains; preload
+x-content-type-options
+nosniff
+x-databricks-org-id
+1731097017602631
+x-request-id
+50cff7d4-f9a1-4eb7-a017-7007c04566cb
+:authority
+dbc-d2b3035b-54c3.cloud.databricks.com
+:method
+GET
+:path
+/ajax-api/2.0/alerts-internal/scheduled-insights-list/ALERT?parent_asset_name=users%2F70561337331970&page_size=25&order_by=last_execute_time+desc
+:scheme
+https
+accept
+application/json, text/plain, */*
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+en-US,en;q=0.9
+content-type
+application/json
+cookie
+workspace-url=dbc-d2b3035b-54c3.cloud.databricks.com; n=6cf796a7-aa25-40a1-b6f9-7856bc8355a1; lfid=128b0728-a6db-403b-b2e0-aa35321021aa; DBAUTH=dbws.1.eyJraWQiOjB9.AedZ7nl0HvOMPORqFgzyHhdRmT9jfLZDPhZBpSF2FxR5VII9FgeQfYuRUwcaVi0oz4b5jlItQ8Qh0_rahuBu0UNEnetP1vtm34tH_E__el498n1sJlQxXjW9HZZm0hTrjJFsc0Vb8LRi87pz-e_r3t9rZ9QvA416TXTJFnQ-MVQSPubLICRdmohHhIRFYTzHXauoegVrxPR-IeVsSoTI4cZDgy-h6RDn9BSKWBaN6-1w_MU2jp-d7i9d_VLZvysKGhGM00vcEGl-L9uMJ-quqiH8mGr1CjCNxJm5LeZb5aKOa3-Hk2PJNoUHvK4x0GXjmyY-6fLh3HB5mjPgEN10wCC3lq904V_RGpYki4a_HyqQmdT8D4ZBWN-_Z6FNBeZU4-V6irhlVnxi4QTpZ4-hCD7l_QSz1FlW_ihYgG_1bIZOkdmQR7sf4FK19OACGa0gmuGxmjkSJxCmQq5dnvSqgZQmznaROtNV3lEATIM7bw4VsTqRtDX0WbGLbjqoQTsw0a_bsZ4zQiFGq4HiJfX9H0Pw_FvpBTCi8aFvtP7r7M6riB-H6375gbODi0NgvoKzljO3_LoPbmpURSOSqD6ogKBladu-k1gWKEOQRJZ53E6NvxjzoCp_aHkf5boQWIGqaezv8ivyaqmwnWMaBwJJZLHWYtHeecOW4a3SsUP_C6E_ZqUxxCJvd96UjNj8bCQJs-aiiFR8JsQ01qjlKTpyan2ZY9MSzSqDaqHWRmUBaR3YbGzAU4VbeOMJ4kG_Gnq3jTSTbzHBp9TCndvjI8XSlaGRRwwL_yYFkvXHgNtfecDBn7NiV7Q4g_K1R0qcLyUPwAov3w==
+priority
+u=1, i
+referer
+https://dbc-d2b3035b-54c3.cloud.databricks.com/one/chat/threads/cadec968cef340a0aedf2e382f5c3a06?utm_source=databricks-one&o=1731097017602631
+sec-ch-ua
+"Google Chrome";v="153", "Not_A Brand";v="8", "Chromium";v="153"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-origin
+traceparent
+00-82d236b980960ef089152ae42cb4ca4f-f70740283db8ab88-00
+tracestate
+product=databricks-ui
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36
+x-client-request-id
+a0ab1bd2-91bb-4877-ace0-77d975b7f0a4
+x-csrf-token
+eb488580-ac6c-4800-bab7-2711b27e8bb6
+x-databricks-attribution-tags
+%7B%22pageId%22%3A%22webapp.navigation.databricks_one_chat.thread%22%2C%22pageViewId%22%3A%2217899556386153219c5ve%22%2C%22browserTabId%22%3A%22302fd718-44f8-4954-9d72-0b7b85617a14%22%2C%22browserHasFocus%22%3Atrue%2C%22browserIsHidden%22%3Afalse%2C%22browserHash%22%3A%22%22%2C%22browserPathName%22%3A%22%2Fone%2Fchat%2Fthreads%2Fcadec968cef340a0aedf2e382f5c3a06%22%2C%22browserHostName%22%3A%22dbc-d2b3035b-54c3.cloud.databricks.com%22%2C%22browserUserAgent%22%3A%22Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F153.0.0.0%20Safari%2F537.36%22%2C%22eventWindowTime%22%3A534223.900000006%2C%22clientTimestamp%22%3A1789956032795%2C%22loadedUiVersions%22%3A%7B%22monolith%22%3A%2220760a36452c1d7a4bf77cb92b22cd4444011db8%22%7D%2C%22clientLocale%22%3A%22en%22%2C%22browserLanguage%22%3A%22en-US%22%2C%22queryParameters%22%3A%22%3Futm_source%3Ddatabricks-one%26o%3D1731097017602631%22%2C%22tabStartTimestampMillis%22%3A1789955498786%7D
+x-databricks-org-id
+1731097017602631
+x-databricks-self
+true
